@@ -1,2 +1,0 @@
-# raulpl.github.io
-blog
