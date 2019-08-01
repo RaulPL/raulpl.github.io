@@ -1,7 +1,5 @@
 My name is Raúl Peralta Lozada and I work as data scientist / software engineer
-at OPI Analytics in Mexico City.
-I love to program in Python and I use it in the majority of my projects.
-Most of my research interests are around the following topics: 
+at OPI Analytics in Mexico City. Most of my research interests are around the following topics: 
 data visualization, Bayesian statistics, causal inference, optimization 
 and reinforcement learning.
 
