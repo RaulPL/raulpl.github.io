@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://raulpl.github.io/galleries/rss.xml</loc>
-  <lastmod>2019-07-31T04:20:00Z</lastmod>
+  <lastmod>2020-07-03T20:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raulpl.github.io/rss.xml</loc>
@@ -15,6 +15,6 @@
  </sitemap>
  <sitemap>
   <loc>https://raulpl.github.io/sitemap.xml</loc>
-  <lastmod>2019-08-01T13:16:00Z</lastmod>
+  <lastmod>2020-07-03T20:45:00Z</lastmod>
  </sitemap>
 </sitemapindex>
