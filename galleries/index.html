@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>galleries | Recurrent thoughts</title>
+<title>galleries | Raúl Peralta Lozada</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -11,7 +12,19 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
 <link rel="canonical" href="https://raulpl.github.io/galleries/">
-<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="icon" href="../favicon.ico" sizes="16x16">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+   tex2jax: {
+       inlineMath: [ ['$','$'], ["\\(","\\)"], ],
+       displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+   },
+   displayAlign: 'center', // Change this to 'center' to center equations.
+   "HTML-CSS": {
+       styles: {'.MathJax_Display': {"margin": 0}}
+   }
+});
+</script><!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <style type="text/css">
     #gallery_container {
         position: relative;
@@ -20,45 +33,40 @@
         position: absolute;
     }
 </style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark bg-dark
+"><div class="container">
 <!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://raulpl.github.io/">
+        <a class="navbar-brand" href="../">
 
-                <span id="blog-title">Recurrent thoughts</span>
-            </a>
-        </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li>
-<a href="../">Blog</a>
+            <span id="blog-title">Raúl Peralta Lozada</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../about" class="nav-link">About</a>
                 </li>
-<li>
-<a href="../about">About</a>
+<li class="nav-item">
+<a href="../archive.html" class="nav-link">Blog</a>
                 </li>
-<li>
-<a href="../archive.html">Archives</a>
-                </li>
-<li>
-<a href="../rss.xml">RSS feed</a>
+<li class="nav-item">
+<a href="../rss.xml" class="nav-link">RSS feed</a>
 
                 
             </li>
 </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="navbar-nav navbar-right"></ul>
 </div>
 <!-- /.navbar-collapse -->
     </div>
@@ -66,36 +74,32 @@
 </nav><!-- End of Menubar --><div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
-        <div class="row">
-            
-            
+        
+        
+        
     
-
 <nav class="breadcrumbs"><ul class="breadcrumb">
-<li>galleries</li>
+<li class="breadcrumb-item active">galleries</li>
 </ul></nav><h1>galleries</h1>
 
 <div id="gallery_container"></div>
 
-        </div>
         <!--End of body content-->
 
         <footer id="footer">
-            Contents © 2020         <a href="mailto:raulpl25@gmail.com">Raul Peralta Lozada</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            Contents © 2020         <a href="mailto:raulpl25@gmail.com">Raúl Peralta Lozada</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
             
         </footer>
 </div>
 </div>
 
 
-            <script src="../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
-    moment.locale("en");
-    fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates --><script src="../assets/js/justified-layout.min.js"></script><script src="../assets/js/gallery.min.js"></script><script>
+        <script src="../assets/js/all-nocdn.js"></script><script src="../assets/js/justified-layout.min.js"></script><script src="../assets/js/gallery.min.js"></script><script>
 var jsonContent = [];
 var thumbnailSize = 180;
 renderGallery(jsonContent, thumbnailSize);
-window.addEventListener('resize', renderGallery);
+window.addEventListener('resize', function(){renderGallery(jsonContent, thumbnailSize)});
 </script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
