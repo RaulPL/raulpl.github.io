@@ -1,9 +1,14 @@
-My name is Raúl Peralta Lozada, I am Python developer and a data scientist 
- based in Mexico City. Most of my interests are around the following topics: 
+My name is Raúl Peralta Lozada, I'm data scientist and a Python developer 
+based in Mexico City. Most of my interests are around the following topics: 
+
 * Data visualization
+
 * Bayesian statistics
+
 * Causal inference 
+
 * Optimization 
+
 
 You can also find me in these other places:
 
